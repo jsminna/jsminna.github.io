@@ -6,12 +6,55 @@
   <title>Document</title>
 </head>
 <body>
-  Hello 404
   <script>
     const path = window.location.pathname;
     if (path === '/call-for-ngo') {
-      window.open('https://www.google.com');
+      window.location.href = 'https://www.google.com';
     }
   </script>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      width: 1200px;
+      max-width: calc(100% - 20px);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      margin: 0 auto;
+      padding: 0 10px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 200px;
+      margin: 10px 0;
+      line-height: 100%;
+      color: #febf10;
+      text-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+    }
+
+    h2 {
+      color: #555;
+      font-weight: 400;
+      font-size: 1.2rem;
+    }
+
+    a {
+      font-weight: bold;
+      color: #febf10;
+      text-decoration: none;
+    }
+
+  </style>
+  <div class="container">
+    <h1>404</h1>
+    <h2>
+      Oops!!!. Seems you lost your way, let's take you back <a href="/">home</a>
+    </h2>
+  </div>
 </body>
 </html>
