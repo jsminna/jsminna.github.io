@@ -1,0 +1,24 @@
+.details {
+  background-color: #f6f7fd;
+  padding: 100px 0;
+}
+
+.detail-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.detail {
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.detail__title {
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-weight: 600;
+  min-height: 60px;
+}
