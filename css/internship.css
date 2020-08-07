@@ -42,3 +42,42 @@
 .detail__text {
   color: #060c22;
 }
+
+.schedule {
+  background-color: #eaeaee;
+  padding: 100px 0;
+}
+
+.schedules {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.schedule__card {
+  background-color: #060c22;
+  color: #fff;
+  min-height: 100px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.schedule__count {
+  font-size: 2.5rem;
+  margin-right:10px;
+  font-weight: 600;
+}
+
+.schedule__title {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 5px 0;
+}
+
+.schedule__date {
+  font-size: 0.8rem;
+  margin: 2px 0;
+  font-weight: 200;
+}
